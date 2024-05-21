@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POV</title>
+    <!--render all elements normally-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--font awsome library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--main template css-->
+    <link rel="stylesheet" href="css/pov.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="logo">
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Event</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <button class="sign-in">sign in </button>
+                <button class="reg">register</button>
+                
+            </nav>
+        </div>
+    </header>
+    <!--end header-->
+    <!--start landing-->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="card">
+        <div class="text">
+            <h1>What Is <span>POV </span> ?</h1>
+            <p>A Point Of view (POV) is a meaningful and actionable problem statement, which will allow you to ideate in a goal-oriented manner.
+            </p>
+        </div>
+        </div>
+        <img src="images/landing3.jpg">
+    </div>
+    <!--end landing-->
+    <!--start components-->
+    <div class="components">
+        <div class="container">
+            <div class="card">
+                <p class="card-title">USER</p>
+                <p class="small-desc">
+                    In startup development, understanding the target user is paramount. This involves gaining insights into their demographics, behaviors, preferences, and pain points.
+                    <br><br>Example: Suppose a startup is developing a mobile fitness app. Understanding the user might involve identifying their age range (e.g., young adults), fitness goals (e.g., weight loss, muscle gain),
+                    preferred workout styles (e.g., yoga, HIIT), and typical usage patterns (e.g., morning workouts, evening routines).
+                </p>
+                <div class="go-corner">
+                <div class="go-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <p class="card-title">Needs</p>
+                <p class="small-desc">
+                    Identifying and addressing the needs of users is essential for creating a product or service that provides genuine value and meets market demand.
+                    <br><br>Example: Continuing with the fitness app example, the needs of users might include access to diverse workout routines, tracking progress and achievements, receiving personalized
+                    recommendations based on fitness goals, and connecting with a supportive community of like-minded individuals.
+                </p>
+                <div class="go-corner">
+                <div class="go-arrow">→</div>
+                </div>
+                </div>
+
+            <div class="card">
+                <p class="card-title">Susrprising Insights</p>
+                <p class="small-desc">
+                    Insights refer to unexpected or valuable observations gained through user research, data analysis, or real-world experiences. These insights can inform strategic decisions and drive innovation.
+                    <br><br> Example: While testing the fitness app with users, the startup team discovers that a significant portion of users prefer short, high-intensity workouts during lunch breaks. This surprising insight
+                    could prompt the team to prioritize the development of quick workout sessions tailored for busy professionals.
+                </p>
+                <div class="go-corner">
+                <div class="go-arrow">→</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end components-->
+    <!--start upload and videos-->
+    <section class="container  py-4">
+        <div
+            class="col-md-6 POV d-flex flex-column align-items-center">
+        <div class="comp">
+            <h3>POV Template</h3>
+            <button id="download">Download file</button>
+            <div class="content d-flex flex-column my-3">
+                <label for="upload" class="my-2">Upload your POV</label>
+                <input id="upload" type="file" accept=".pdf"/>
+            </div>
+        </div>
+            <div class="video">
+            <video controls>
+            <source 
+                src="images/pov-video.mp4"
+                type="video/mp4" />
+            </video>
+            </div>
+        </div>
+    </section>
+    
+    <!--end upload and videos-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>
